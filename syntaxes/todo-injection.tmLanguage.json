@@ -1,0 +1,19 @@
+{
+    "scopeName": "comment.todo",
+    "injectionSelector": "L:comment.line.double-slash, L:comment.block, L:comment.block.documentation",
+    "patterns": [
+		{
+			"match": "\\b(TODO|FIXME|CHANGED|NOTE)\\:?(.*)",
+			"name": "comment.other.${1:/downcase}"
+		},
+		{
+			"captures": {
+				"1": {
+					"name": "markup.underline.link.radar"
+				}
+			},
+			"match": "<(ra?dar:/(?:/problem|)/(?:[&0-9]+))>",
+			"name": "comment.other.radar"
+		}
+	]
+}

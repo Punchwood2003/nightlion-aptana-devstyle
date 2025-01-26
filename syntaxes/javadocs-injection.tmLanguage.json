@@ -1,0 +1,18 @@
+{
+    "scopeName": "comment.block.documentation.other",
+    "injectionSelector": "L:comment.block.documentation, L:comment.block.javadoc.java",
+    "patterns": [
+        {
+            "match": "</?(a|b|blockquote|br|caption|cite|code|col|colgroup|dd|del|div|dl|dt|em|h1|h2|h3|h4|h5|h6|hr|i|img|ins|li|nl|ol|p|pre|q|s|samp|small|span|strike|strong|sub|sup|table|tbody|td|tfoot|th|thead|tr|tt|u|ul)>",
+            "name": "comment.block.documentation.other.tag.html"
+        },
+        {
+            "match": "\\{@link.*?\\}",
+            "name": "comment.block.documentation.other.javadoc.link"
+        },
+        {
+            "match": "\\{@code.*?\\}",
+            "name": "comment.block.documentation.other.javadoc.code"
+        }
+    ]
+}

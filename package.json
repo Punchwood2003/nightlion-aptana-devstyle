@@ -1,0 +1,84 @@
+{
+  "name": "nightlion-aptana-devstyle",
+  "displayName": "NightLion Aptana (DevStyle)",
+  "description": "A port of the NightLion Aptana Theme from DevStyle. This is a part of the \"DarkestDark\" extension of the Eclipse IDE, but not a part of the VS Code set of themes.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "NightLion Aptana",
+        "uiTheme": "vs-dark",
+        "path": "./themes/NightLion Aptana-color-theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "scopeName": "comment.todo",
+        "path": "./syntaxes/todo-injection.tmLanguage.json",
+        "injectTo": [
+          "source.java",
+          "source.js",
+          "source.python",
+          "source.go",
+          "source.c++",
+          "source.cpp",
+          "source.cs",
+          "source.css",
+          "source.html",
+          "source.json",
+          "source.php",
+          "source.ruby",
+          "source.shell",
+          "source.sql",
+          "source.swift",
+          "source.ts",
+          "source.xml",
+          "text.html.markdown",
+          "text.xml"
+        ]
+      },
+      {
+        "scopeName": "comment.block.documentation.other",
+        "path": "./syntaxes/javadocs-injection.tmLanguage.json",
+        "injectTo": [
+          "source.java",
+          "source.js",
+          "source.python",
+          "source.go",
+          "source.c++",
+          "source.cpp",
+          "source.cs",
+          "source.php",
+          "source.ruby",
+          "source.swift",
+          "source.ts",
+          "source.xml"
+        ]
+      }
+    ],
+    "configurationDefaults": {
+      "editor.showDeprecated": true,
+      "editor.suggest.showDeprecated": true,
+      "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+          "*.deprecated": {
+            "strikethrough": true,
+            "italic": true
+          }
+        }
+      }
+    }
+  },
+  "author": {
+    "name": "Matthew Sheldon",
+    "email": "msheldon@microsoft.com", // TODO: Change this,
+    "url": "https://github.com/msheldon/nightlion-aptana-devstyle"
+  }
+}
