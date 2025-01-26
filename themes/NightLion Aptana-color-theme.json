@@ -181,6 +181,8 @@
 				"storage.modifier - storage.modifier.import",
 				"storage.modifier.java",
 				"variable.language.this",
+				"storage.modifier.extends",
+				"storage.modifier.implements",
 			],
 			"settings": {
 				"fontStyle": "bold",

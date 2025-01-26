@@ -1,16 +1,13 @@
-# nightlion-aptana-devstyle README
+# NightLion Aptana (DevStyle) Theme
+This extension is a port of the NightLion Aptana Theme from DevStyle. This is a part of the "DarkestDark" extension of the Eclipse IDE, but not a part of the VS Code set of themes.
 
-## Working with Markdown
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.png">
+  </a>
+</p>
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Visualization
+The following is a screenshot of the NightLion Aptana theme in action.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+![NightLion Aptana Theme](https://github.com/Punchwood2003/nightlion-aptana-devstyle/blob/main/EditorExample_Large.png)

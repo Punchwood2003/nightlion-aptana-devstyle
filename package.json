@@ -2,13 +2,44 @@
   "name": "nightlion-aptana-devstyle",
   "displayName": "NightLion Aptana (DevStyle)",
   "description": "A port of the NightLion Aptana Theme from DevStyle. This is a part of the \"DarkestDark\" extension of the Eclipse IDE, but not a part of the VS Code set of themes.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": [
     "Themes"
   ],
+  "author": {
+    "name": "Matthew Sheldon",
+    "email": "matthewtsheldon@gmail.com",
+    "url": "https://www.linkedin.com/in/matthewtsheldon/"
+  },
+  "publisher": "MatthewSheldon",
+  "icon": "EditorExample_Small.png",
+  "readme": "README.md",
+  "license": "LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Punchwood2003/nightlion-aptana-devstyle"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "dark theme",
+    "darkest",
+    "darkestdark",
+    "eclipse",
+    "aptana",
+    "devstyle",
+    "nightlion",
+    "NightLion",
+    "Aptana",
+    "DevStyle"
+  ],
+  "bugs": {
+    "url": "https://github.com/Punchwood2003/nightlion-aptana-devstyle/blob/main/KNOWN_ISSUES.md"
+  },
+  "homepage": "https://github.com/Punchwood2003/nightlion-aptana-devstyle/blob/main/README.md",
   "contributes": {
     "themes": [
       {
@@ -26,6 +57,7 @@
           "source.js",
           "source.python",
           "source.go",
+          "source.c",
           "source.c++",
           "source.cpp",
           "source.cs",
@@ -51,6 +83,7 @@
           "source.js",
           "source.python",
           "source.go",
+          "source.c",
           "source.c++",
           "source.cpp",
           "source.cs",
@@ -75,10 +108,5 @@
         }
       }
     }
-  },
-  "author": {
-    "name": "Matthew Sheldon",
-    "email": "msheldon@microsoft.com", // TODO: Change this,
-    "url": "https://github.com/msheldon/nightlion-aptana-devstyle"
   }
 }
