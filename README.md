@@ -5,6 +5,12 @@ This extension is a port of the NightLion Aptana Theme from DevStyle. This is a 
   <a href="https://opensource.org/licenses/MIT">
   <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.png">
   </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=MatthewSheldon.nightlion-aptana-devstyle">
+    <img alt="VS Code Marketplace Downloads" src="https://img.shields.io/visual-studio-marketplace/d/MatthewSheldon.nightlion-aptana-devstyle">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=MatthewSheldon.nightlion-aptana-devstyle">
+    <img alt="VS Code Marketplace Installs" src="https://img.shields.io/visual-studio-marketplace/i/MatthewSheldon.nightlion-aptana-devstyle">
+  </a>
 </p>
 
 ## Visualization
