@@ -147,6 +147,7 @@
 		"*.deprecated": "#FFFFFF", // Deprecated Members
 		"*.importDeclaration": "#FFFFFF", // Imports
 		"*.abstract.importDeclaration": "#FFFFFF", // Abstract Imports
+		"*.constructor": "#DFBE95", // Constructors
 		"function": "#DFBE95", // Functions
 		"method": "#DFBE95", // Methods
 		"function.static": "#C4C4B7", // Static Functions

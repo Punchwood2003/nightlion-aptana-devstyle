@@ -2,7 +2,7 @@
   "name": "nightlion-aptana-devstyle",
   "displayName": "NightLion Aptana (DevStyle)",
   "description": "A port of the NightLion Aptana Theme from DevStyle. This is a part of the \"DarkestDark\" extension of the Eclipse IDE, but not a part of the VS Code set of themes.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.96.0"
   },

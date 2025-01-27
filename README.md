@@ -16,4 +16,4 @@ This extension is a port of the NightLion Aptana Theme from DevStyle. This is a 
 ## Visualization
 The following is a screenshot of the NightLion Aptana theme in action.
 
-![NightLion Aptana Theme](https://github.com/Punchwood2003/nightlion-aptana-devstyle/blob/main/EditorExample_Large.png)
+![NightLion Aptana Theme](./EditorExample_Large.png)
