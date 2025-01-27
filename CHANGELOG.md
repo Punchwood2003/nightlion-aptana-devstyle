@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - v1.0.1 - Minor Features
     - Added colorization for constructors.
+    - Added colorization for JSON keys seperate from the colorization for Strings.
     - Resolved an issue where the image of the theme in the README was not showing up on the VS Code Marketplace.
 
 ## [1.0.0] - 2025-01-26
